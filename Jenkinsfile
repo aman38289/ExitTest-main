@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'MAVEN_HOME' // Ensure this matches the Maven version on your Jenkins server
-        jdk 'JAVA_HOME' // Ensure this matches the JDK version on your Jenkins server
+        maven 'MAVEN_default' // Ensure this matches the Maven version on your Jenkins server
+        jdk 'JAVA_default' // Ensure this matches the JDK version on your Jenkins server
     }
 
     stages {
