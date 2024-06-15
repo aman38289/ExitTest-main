@@ -1,39 +1,46 @@
 pipeline {
     agent any
-
+ 
     tools {
-        maven 'MAVEN_default' // Ensure this matches the Maven version on your Jenkins server
-        jdk 'JAVA_default' // Ensure this matches the JDK version on your Jenkins server
+        // Ensures Maven is available for building and testing the project
+        maven 'default' // Ensure Maven is named and configured in Jenkins' Global Tool Configuration
     }
-
+ 
+   
+ 
     stages {
-        stage('Checkout') {
+        stage('Initialize') {
             steps {
-                checkout scm
+                git 'https://github.com/aman38289/jenkinsAssignment.git'
+                echo 'Starting build and test process'
             }
         }
-        
         stage('Build') {
             steps {
-                bat 'mvn clean install'
+                // Clean the project and install dependencies without running tests
+                bat 'mvn clean package'
             }
         }
-
         stage('Test') {
             steps {
+                // Run unit tests and Cucumber tests
                 bat 'mvn test'
             }
         }
     }
+ 
     post {
         always {
-            cleanWs()
+            // This will always execute at the end of the pipeline execution
+            echo 'Pipeline execution complete!'
         }
         success {
-            echo 'Build and deploy successful!'
+            // Actions to take if the entire pipeline runs successfully
+            echo 'Build and tests completed successfully.'
         }
         failure {
-            echo 'Build failed!'
+            // Actions to take if the pipeline fails at any stage
+            echo 'An error occurred during pipeline execution.'
         }
     }
 }
