@@ -23,23 +23,8 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
-                    jacoco execPattern: 'target/jacoco.exec', classPattern: 'target/classes', sourcePattern: 'src/main/java'
-                }
-            }
         }
-
-        stage('Package') {
-            steps {
-                bat 'mvn package'
-            }
-        }
-
-        
     }
-
     post {
         always {
             cleanWs()
