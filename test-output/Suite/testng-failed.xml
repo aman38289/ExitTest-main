@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TestTravelPage">
+        <methods>
+          <include name="verifyFlightPageElements"/>
+          <include name="VerifyCartPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestTravelPage -->
+      <class name="tests.TestVerifyAddToCart">
+        <methods>
+          <include name="verifyAddToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestVerifyAddToCart -->
+      <class name="tests.TestSearchFunctionality">
+        <methods>
+          <include name="testSearchFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestSearchFunctionality -->
+      <class name="tests.TestLoginPageElements">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLoginPageElements"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestLoginPageElements -->
+      <class name="tests.TestShopsyPage">
+        <methods>
+          <include name="sendQueryForm"/>
+          <include name="VerifyShopsyQueryFormElements"/>
+          <include name="VerifyShopsyPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestShopsyPage -->
+      <class name="tests.TestSellerPageFunctionalities">
+        <methods>
+          <include name="VerifyStartSellingDashboard"/>
+          <include name="VerifyBecomeSellerIcon"/>
+          <include name="VerifySellingDashBoardLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestSellerPageFunctionalities -->
+      <class name="tests.TestInvalidLogin">
+        <methods>
+          <include name="verifyInvalidLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestInvalidLogin -->
+      <class name="tests.TestGroceryCategory">
+        <methods>
+          <include name="VerifyGroceryCategory"/>
+          <include name="VerifyPincodeEnter"/>
+          <include name="VerifySearchProduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestGroceryCategory -->
+      <class name="tests.TestProductDetailsPage">
+        <methods>
+          <include name="verifyProductDetailsPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestProductDetailsPage -->
+      <class name="tests.TestCartPage">
+        <methods>
+          <include name="VerifyCartPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestCartPage -->
+      <class name="tests.TestTermsAndCondition">
+        <methods>
+          <include name="testTermsAndConditions"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestTermsAndCondition -->
+      <class name="tests.TestHomePage">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TestHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

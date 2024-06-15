@@ -1,0 +1,62 @@
+Jun 15, 2024 12:14:20 AM tests.TestHomePage verifyHomePageTitle
+INFO: verifyHomePageTitle Test Started...
+Jun 15, 2024 12:14:24 AM tests.TestHomePage verifyHomePageTitle
+INFO: verifyHomePageTitle Test completed successfully
+Jun 15, 2024 12:14:29 AM tests.TestTravelPage VerifyCartPage
+INFO: Verify Travel Page Title Test Started...
+Jun 15, 2024 12:14:39 AM tests.TestTravelPage verifyFlightPageElements
+INFO: verifyFlightPage Elements Test Started...
+Jun 15, 2024 12:14:40 AM tests.TestTravelPage verifyFlightPageElements
+INFO: verifyTravelPageElements Test completed successfully
+Jun 15, 2024 12:14:45 AM tests.TestLoginPageElements verifyLoginPageElements
+INFO: verifyLoginPageElements Test Started...
+Jun 15, 2024 12:14:54 AM tests.TestLoginPageElements verifyLoginPageElements
+INFO: verifyLoginPageElements Test completed successfully
+Jun 15, 2024 12:14:58 AM tests.TestTermsAndCondition testTermsAndConditions
+INFO: verifyTermsAndConditions Test Started...
+Jun 15, 2024 12:15:07 AM tests.TestTermsAndCondition testTermsAndConditions
+INFO: verifyTermsAndConditionsPageTitle Test completed successfully
+Jun 15, 2024 12:15:11 AM tests.TestShopsyPage VerifyShopsyPage
+INFO: VerifyShopsyDashboardTitle Test Started...
+Jun 15, 2024 12:15:17 AM tests.TestShopsyPage VerifyShopsyQueryFormElements
+INFO: VerifyShopsyQueryFormElements Test Started...
+Jun 15, 2024 12:15:17 AM tests.TestShopsyPage VerifyShopsyQueryFormElements
+INFO: VerifyShopsyQueryFormElements Test completed successfully
+Jun 15, 2024 12:15:17 AM tests.TestShopsyPage sendQueryForm
+INFO: Verification of Send Query form Test Started...
+Jun 15, 2024 12:15:26 AM tests.TestShopsyPage sendQueryForm
+INFO: VerifySendQuery Test completed successfully
+Jun 15, 2024 12:15:32 AM tests.TestGroceryCategory VerifyGroceryCategory
+INFO: VerifyGroceryCategoryTitle Test Started...
+Jun 15, 2024 12:15:38 AM tests.TestGroceryCategory VerifyGroceryCategory
+INFO: verifyGroceryPageTitle Test completed successfully
+Jun 15, 2024 12:15:39 AM tests.TestGroceryCategory VerifySearchProduct
+INFO: VerifySearchProductTitle Test Started...
+Jun 15, 2024 12:15:50 AM tests.TestVerifyAddToCart verifyAddToCart
+INFO: verifyAddToCart Test Started...
+Jun 15, 2024 12:16:08 AM tests.TestVerifyAddToCart verifyAddToCart
+INFO: Verified Add to Cart Functionality successfully
+Jun 15, 2024 12:16:13 AM tests.TestSearchFunctionality testSearchFunctionality
+INFO: verifySearchFunctionality Test Started...
+Jun 15, 2024 12:16:22 AM tests.TestSearchFunctionality testSearchFunctionality
+INFO: verifySearchFunctionalityTitle Test completed successfully
+Jun 15, 2024 12:16:26 AM tests.TestCartPage VerifyCartPage
+INFO: Verify Cart Page Title Test Started...
+Jun 15, 2024 12:16:36 AM tests.TestInvalidLogin verifyInvalidLogin
+INFO: verifyInvalidLogin Test Started...
+Jun 15, 2024 12:16:49 AM tests.TestSellerPageFunctionalities VerifyBecomeSellerIcon
+INFO: verifySellerPageTitle Test Started...
+Jun 15, 2024 12:17:00 AM tests.TestSellerPageFunctionalities VerifyBecomeSellerIcon
+INFO: verifySellerPageTitle Test completed successfully
+Jun 15, 2024 12:17:00 AM tests.TestSellerPageFunctionalities VerifyStartSellingDashboard
+INFO: verifySellerDashboardTitle Test Started...
+Jun 15, 2024 12:17:10 AM tests.TestSellerPageFunctionalities VerifyStartSellingDashboard
+INFO: verifySellerDashboardTitle Test completed successfully
+Jun 15, 2024 12:17:10 AM tests.TestSellerPageFunctionalities VerifySellingDashBoardLogin
+INFO: VerifySellingDashBoardLogin Test Started...
+Jun 15, 2024 12:17:10 AM tests.TestSellerPageFunctionalities VerifySellingDashBoardLogin
+INFO: VerifySellingDashBoardLogin Test completed successfully
+Jun 15, 2024 12:17:14 AM tests.TestProductDetailsPage verifyProductDetailsPage
+INFO: verifyProductDetails Test Started...
+Jun 15, 2024 12:18:09 AM tests.TestProductDetailsPage verifyProductDetailsPage
+INFO: verifyProductDetailsPageTitle Test completed successfully
